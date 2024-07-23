@@ -186,6 +186,13 @@ color:#FFA84B;
     border-bottom: 2px solid #ccc;
 }
 
+
+.ac .ac-trigger{
+    background-color: #000000;
+    border: none;
+    padding: 15px 32px 10px 10px
+}
+
 .ac-header {
     background-color: #222;
 }
@@ -193,17 +200,22 @@ color:#FFA84B;
     color: #fff !important;
     border: 1px solid transparent;
     outline: 1px solid #222 !important;
+    
 }
 .ac-panel{
     background-color: #222;
     outline: 1px  solid #222 !important;
+    
    
 }
 .accordion-conrainer button, .accordion-conrainer-2 button  {
     padding: 20px 0 !important;
+    
 }
 .ac-panel .ac-text {
     color: #fff !important;
+    
+    
     
     
 }
