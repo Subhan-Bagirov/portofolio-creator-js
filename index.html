@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="keywords" content="">
+    <meta name="keywords" content="">
 <meta name="description" content="">
 
 
@@ -11,12 +14,14 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <!--SWIPPER CDN-->  
     <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-
+<!--Accordion JVc-->
+<link rel="stylesheet" href="https://unpkg.com/accordion-js@3.3.4/dist/accordion.min.css">
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+
     <title>Portofolio Creator</title>
 </head>
 <body>
@@ -88,7 +93,7 @@
         </div> --> 
         <div class="button-groups">
           <a href="" class="button book-a-call-button">Book a Call</a>
-          <a href="" class="button download-cv-button strelka ">Download CV  <img src="images/icons/Strelka1.svg" alt=""></a>
+          <a href="./cv.pdf" download class="button download-cv-button strelka ">Download CV  <img src="images/icons/Strelka1.svg" alt=""></a>
       </div>
 
     </div>
@@ -124,7 +129,12 @@
       </div>
     </section>
   </div>
+  
 
+
+
+
+  
   <section class="project-section container py-5">
     <h6 class="project">P R O J E C T S</h6>
     <div class="view-all-projects d-flex justify-content-between align-items-center">
@@ -224,8 +234,193 @@
      </div>
     </div>
    </div>
+<!--Testimonials  start-->
+<section class="testimonials-section container my-5">
+  <h6 class="text-uppercase">TESTIMONIALS</h6>
+  <h2>Word on the street</h2>
 
 
+
+  <div class="swiper TestimonialsSwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="row">
+          <div class="col-12 col-md-6 testimonials-left-side">
+            <img src="./images/testimonials/testimonials.svg" alt="" class="img-fluid">
+          </div>
+
+
+          <div class="testimonials-right-side col-12 col-md-6">
+           <img src="./images/testimonials/testimonialscomma.svg" alt="">
+          <p><strong>Jade helped us build a software so intuitive that it didn't need a walkthrough. He solved complex problems with brilliant design.</strong></p>
+          
+          <div class="author-btn">
+            <div class="autor">
+             <h6>Jonh Frankin</h6>
+             <small>Founder, Double Bunch</small>
+            </div>
+
+            
+          </div>
+        </div>
+        </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="row">
+            <div class="col-12 col-md-6 testimonials-left-side">
+              <img src="./images/testimonials/testimonials.svg" alt="" class="img-fluid">
+            </div>
+  
+  
+            <div class="testimonials-right-side col-12 col-md-6">
+             <img src="./images/testimonials/testimonialscomma.svg" alt="">
+            <p><strong>Jade helped us build a software so intuitive that it didn't need a walkthrough. He solved complex problems with brilliant design.</strong></p>
+            
+            <div class="author-btn">
+              <div class="autor">
+               <h6>Jonh Frankin</h6>
+               <small>Founder, Double Bunch</small>
+              </div>
+  
+              
+            </div>
+          </div>
+          </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="row">
+              <div class="col-12 col-md-6 testimonials-left-side">
+                <img src="./images/testimonials/testimonials.svg" alt="" class="img-fluid">
+              </div>
+    
+    
+              <div class="testimonials-right-side col-12 col-md-6">
+               <img src="./images/testimonials/testimonialscomma.svg" alt="">
+              <p><strong>Jade helped us build a software so intuitive that it didn't need a walkthrough. He solved complex problems with brilliant design.</strong></p>
+              
+              <div class="author-btn">
+                <div class="autor">
+                 <h6>Jonh Frankin</h6>
+                 <small>Founder, Double Bunch</small>
+                </div>
+    
+                
+              </div>
+            </div>
+            </div>
+            </div>  
+
+      
+    </div>
+    <div class="btns">
+      <button class="prev-btn">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+    <button class="next-btn ">
+      <i class="fa-solid fa-chevron-right"></i>
+
+    </button>
+    </div>
+  </div>
+
+ </section>
+ <!--Testimonials  end-->
+
+ <!--Accordion start-->
+
+ <section class="faq-section bg-dark py-5 ">
+  <div class="container">
+    <h6 class="text-center text-uppercase text-warning ">F A Q</h6>
+    <h2 class="text-center text-light my-4">Frequently asked questions</h2>
+ 
+    <div class="row">
+     <div class="accordion-left col-12 col-md-6">
+       <div class="accordion-container">
+         <div class="ac">
+           <h2 class="ac-header">
+             <button type="button" class="ac-trigger">Shexsi kabinetin parolunu unutmusham.Ne ede bilerem?</button>
+           </h2>
+           <div class="ac-panel">
+             <p class="ac-text">Daxil ol ve qeydiyyatdan kec</p>
+           </div>
+         </div>
+         <div class="ac">
+           <h2 class="ac-header">
+             <button type="button" class="ac-trigger">Shexsi kabinetin parolunu unutmusham.Ne ede bilerem?</button>
+           </h2>
+           <div class="ac-panel">
+             <p class="ac-text">Daxil ol ve qeydiyyatdan kec</p>
+           </div>
+         </div>
+         <div class="ac">
+           <h2 class="ac-header">
+             <button type="button" class="ac-trigger">Shexsi kabinetin parolunu unutmusham.Ne ede bilerem?</button>
+           </h2>
+           <div class="ac-panel">
+             <p class="ac-text">Daxil ol ve qeydiyyatdan kec</p>
+           </div>
+         </div>
+         <div class="ac">
+           <h2 class="ac-header">
+             <button type="button" class="ac-trigger">Shexsi kabinetin parolunu unutmusham.Ne ede bilerem?</button>
+           </h2>
+           <div class="ac-panel">
+             <p class="ac-text">Daxil ol ve qeydiyyatdan kec</p>
+           </div>
+         </div>
+       </div>
+     </div>
+     
+     <div class="accordion-right col-md-6 ">
+       <div class="accordion-container-2">
+         <div class="ac">
+           <h2 class="ac-header">
+             <button type="button" class="ac-trigger">Shexsi kabinetin parolunu unutmusham.Ne ede bilerem?</button>
+           </h2>
+           <div class="ac-panel">
+             <p class="ac-text">Daxil ol ve qeydiyyatdan kec</p>
+           </div>
+         </div>
+         <div class="ac">
+           <h2 class="ac-header">
+             <button type="button" class="ac-trigger">Shexsi kabinetin parolunu unutmusham.Ne ede bilerem?</button>
+           </h2>
+           <div class="ac-panel">
+             <p class="ac-text">Daxil ol ve qeydiyyatdan kec</p>
+           </div>
+         </div>
+         <div class="ac">
+           <h2 class="ac-header">
+             <button type="button" class="ac-trigger">Shexsi kabinetin parolunu unutmusham.Ne ede bilerem?</button>
+           </h2>
+           <div class="ac-panel">
+             <p class="ac-text">Daxil ol ve qeydiyyatdan kec</p>
+           </div>
+         </div>
+         <div class="ac">
+           <h2 class="ac-header">
+             <button type="button" class="ac-trigger">Shexsi kabinetin parolunu unutmusham.Ne ede bilerem?</button>
+           </h2>
+           <div class="ac-panel">
+             <p class="ac-text">Daxil ol ve qeydiyyatdan kec</p>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+  </div>
+   
+ </section>
+ <!--Accordion end-->
+
+
+
+
+
+
+
+    <!--Accordion JVc-->
+    <script src="https://unpkg.com/accordion-js@3.3.4/dist/accordion.min.js"></script>
     <!--AOS JVc-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!--SWIPER JVc-->

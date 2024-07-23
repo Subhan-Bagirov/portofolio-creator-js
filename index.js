@@ -90,9 +90,33 @@ const unvan = "https://jsonplaceholder.typicode.com/posts"
     //},
 
       navigation: {
-        nextEl: ".sonra",
-        prevEl: ".evvel",
+        nextEl: ".evvel",
+        prevEl: ".sonra",
+      },
+
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
       },
     });
-
-     
+    //Testimonials
+    const testimonialSlayder = new Swiper (".TestimonialsSwiper", {
+      navigation: {
+        nextEl: ".next-btn",
+        prevEl: ".prev-btn",
+      },
+    })
+     //Accordion 
+     new Accordion('.accordion-container');
+     new Accordion('.accordion-container-2');
