@@ -70,6 +70,23 @@ width: 100%;
 }
 
 
+.card-img-top1 {
+    width: 70px;
+    height: 70px;
+}
+
+.services ul {
+    list-style-type: square;
+    padding: 0px;
+    padding-left: 17px;
+}
+.services h6 {
+    color: #FF5E69;
+   
+}
+
+
+
 
 .span {
     color: #FF8A56;
